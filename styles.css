@@ -3,7 +3,6 @@ body {
 }
 
 .navbar2 {
-	box-shadow: 0 8px 6px -6px #999;
 	background-color: white;
 }
 
@@ -39,7 +38,6 @@ body {
 }
 
 .left-col-cust {
-	box-shadow: 8px 0px 6px -6px #999;
 	height: 800px;
 	padding: 25px 30px 75px 30px;
 }
@@ -55,8 +53,7 @@ body {
 .btn-danger {
 	background-color: transparent;
 	color: black;
-	box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
-	border: 1px solid lightgray;
+	border: 2px solid lightgray;
 	border-radius: 25px;
 	margin-top: 40px;
 	font-weight: bold;
@@ -118,7 +115,7 @@ body {
 .custom2, .custom3 {
     background-color: #EFEFEF;
     border: none;
-    color: white;
+    color: #E73A3C;
     padding: 11px;
     text-align: center;
     text-decoration: none;
@@ -127,8 +124,7 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 50%;
-	box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
-	border: 1px solid lightgray;
+	border: 2px solid lightgray;
 	height: 110px;
 	width: 110px;
 }
@@ -164,26 +160,22 @@ body {
 
 
 .fa-times, .fa-percent, .fa-clock, .fa-dollar-sign {
-	color: #E73A3C;
 	font-weight: bold;
-	font-size: 30px;
-}
-
-.currentPay {
-	color: white;
-	padding-bottom: 35px;
-}
-
-.co {
-	font-size: 12px;
-	font-weight: bold;
+	font-size: 20px;
+	margin:0px auto;
 }
 
 .custom3 {
     background-color: #E73A3C;
-	color: white;
 	padding-bottom: 35px;
 }
+.currentPay {
+	font-size: 25px;
+	font-weight: bold;
+	color: white !important;
+	margin:0px auto;
+}
+
 
 .myInput {
   background-image: url("searchicon.png");
@@ -243,8 +235,13 @@ body {
 	border-bottom: 1px solid lightgray;
 }
 
+.itemColor {
+	color: lightgray !important;
+}
+
 .selectedType {
 	border-bottom: 5px solid #E73A3C;
+	color: #E73A3C !important;
 }
 
 .fa-bars {
@@ -255,8 +252,9 @@ body {
 	width: 18%;
 	margin: 4px;
 	padding: 35px;
-	box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.2), 0 0 0 0 rgba(0, 0, 0, 0.19);
 	background-color: #EFEFEF;
 	color: gray;
-	border: 1px solid lightgray;
+	border: 2px solid lightgray;
 }
+
+
